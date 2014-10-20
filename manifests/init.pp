@@ -7,7 +7,7 @@ class drobo_dashboard {
   package { 'DroboDashboard':
     ensure   => installed,
     provider => 'appdmg',
-    source   => 'http://www.drobo.com/start/download/dashboard/Drobo-Dashboard-installer-2.5.2.dmg'
+    source   => 'http://files.drobo.com/webrelease/dashboard/Drobo-Dashboard-2.6.3.dmg'
   }
 
   exec {'run the installer':
